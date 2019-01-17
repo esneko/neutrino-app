@@ -6,15 +6,18 @@
   "author": "esneko@gmail.com",
   "license": "MIT",
   "scripts": {
-    "start": "neutrino start --use @neutrinojs/node",
-    "build": "neutrino build --use @neutrinojs/node",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
     "test": "jest",
     "test:watch": "jest --watch"
   },
   "dependencies": {},
   "devDependencies": {
-    "@neutrinojs/jest": "^8.3.0",
-    "@neutrinojs/node": "^8.3.0",
-    "neutrino": "^8.3.0"
+    "@neutrinojs/jest": "9.0.0-rc.0",
+    "@neutrinojs/node": "9.0.0-rc.0",
+    "neutrino": "9.0.0-rc.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
   }
 }
