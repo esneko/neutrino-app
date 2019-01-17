@@ -1,0 +1,18 @@
+{
+  "name": "neutrino-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "author": "esneko@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "",
+    "build": "",
+    "lint": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "neutrino": "^8.3.0"
+  }
+}
