@@ -3,6 +3,7 @@ module.exports = {
     root: __dirname
   },
   use: [
+    '@neutrinojs/jest',
     '@neutrinojs/vue'
   ]
 }

@@ -9,10 +9,12 @@
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {},
   "devDependencies": {
+    "@neutrinojs/jest": "^8.3.0",
     "@neutrinojs/vue": "^8.3.0",
     "neutrino": "^8.3.0"
   }
