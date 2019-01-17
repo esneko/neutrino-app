@@ -6,13 +6,15 @@
   "author": "esneko@gmail.com",
   "license": "MIT",
   "scripts": {
-    "start": "",
-    "build": "",
-    "lint": "",
+    "start": "neutrino start --use @neutrinojs/node",
+    "build": "neutrino build --use @neutrinojs/node",
+    "lint": "echo \"Error: no lint specified\" && exit 1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {},
   "devDependencies": {
+    "@neutrinojs/jest": "^8.3.0",
+    "@neutrinojs/node": "^8.3.0",
     "neutrino": "^8.3.0"
   }
 }
