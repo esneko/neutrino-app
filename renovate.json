@@ -1,5 +1,12 @@
 {
   "extends": [
     "config:base"
+  ],
+  "packageRules": [
+    {
+      "packageNames": ["neutrino"],
+      "packagePatterns": ["^@neutrino/"],
+      "groupName": "neutrino monorepo"
+    }
   ]
 }
