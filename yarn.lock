@@ -610,10 +610,10 @@
     "@babel/core" "^7.1.6"
     babel-loader "^8.0.4"
 
-"@neutrinojs/dev-server@9.0.0-rc.0":
-  version "9.0.0-rc.0"
-  resolved "https://registry.yarnpkg.com/@neutrinojs/dev-server/-/dev-server-9.0.0-rc.0.tgz#398033327fe7ec8d16a43ab7d3659ccb791a0acc"
-  integrity sha512-m6xTvCYfCdxZSvIP+Tm1vMiXH0q11y3rMwnk6i7dGkzmA6mc76tNOPLy4jJkuXNdjMdjo1ZcT4oi0cw8IZNF/Q==
+"@neutrinojs/dev-server@9.0.0-rc.5":
+  version "9.0.0-rc.5"
+  resolved "https://registry.yarnpkg.com/@neutrinojs/dev-server/-/dev-server-9.0.0-rc.5.tgz#b9e1f47baa9cfec70e5b77dd12c5642af9527ff4"
+  integrity sha512-2Yd44QwRMcpSb5NGfWRl2rufcw8zGcfQIdc1w6eTpQ1CaS3ykKT6P0N/WPRwtF/HhmwHzG/be8jLMaiJ084Eyw==
 
 "@neutrinojs/jest@9.0.0-rc.0":
   version "9.0.0-rc.0"
