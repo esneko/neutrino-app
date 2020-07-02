@@ -18,7 +18,7 @@
     "@neutrinojs/node": "9.0.0-rc.0",
     "neutrino": "9.0.0-rc.0",
     "webpack": "4.28.4",
-    "webpack-cli": "3.2.1",
+    "webpack-cli": "3.3.12",
     "webpack-dev-server": "3.1.14"
   }
 }
